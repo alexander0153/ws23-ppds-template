@@ -1,0 +1,29 @@
+{
+    "name": "PPDS",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "features": {
+        "ghcr.io/devcontainers/features/common-utils": {
+            "configureZshAsDefaultShell": true,
+            "username": "vscode",
+            "installZsh": true,
+            "installOhMyZsh": true,
+            "upgradePackages": true
+        }
+    },
+    "containerUser": "vscode",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "tamasfe.even-better-toml",
+                "EditorConfig.EditorConfig",
+                "eamodio.gitlens",
+                "ms-vsliveshare.vsliveshare",
+                "ms-vscode.makefile-tools",
+                "rust-lang.rust-analyzer",
+                "ms-vscode.cpptools"
+            ]
+        }
+    }
+}

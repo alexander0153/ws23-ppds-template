@@ -1,0 +1,21 @@
+{
+    "editor.autoIndent": "advanced",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "files.associations": {
+        "rust-toolchain": "toml",
+        "*.h": "c"
+    },
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer",
+        "editor.rulers": [
+            100
+        ],
+    },
+    "[makefile][c]": {
+        "editor.formatOnSave": false,
+        "editor.formatOnPaste": false,
+    },
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+}
